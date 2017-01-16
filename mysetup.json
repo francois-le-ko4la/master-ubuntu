@@ -1,0 +1,312 @@
+{
+	"GUI": {
+		"backgroundTitle": "Master Ubuntu",
+		"choicesMode": [
+			[
+				"a",
+				"Automatic"
+			],
+			[
+				"s",
+				"Select the packages to install"
+			]
+		],
+		"titleMode": "Packages installation... you have two options:",
+		"titleCat": "Select your categories",
+		"titlePKG": "Select your packages",
+		"titleTasks": "Select tasks",
+		"warningMsg": "\nThis personal script setup a new ubuntu environment. This script has been edited and tested on Ubuntu 16.10 according to my personal needs.\nYou can use, modify, change, do your coffe,... ON YOUR OWN RISKS !!! This script is provided in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details."
+	},
+	"package": {
+		"Google":{
+			"1": {
+				"KEY": "https://dl-ssl.google.com/linux/linux_signing_key.pub",
+				"LABEL": "Chrome",
+				"PKG": "google-chrome-stable",
+				"PPA": "http://dl.google.com/linux/chrome/deb/",
+				"function": "installPKG",
+				"run": true
+			}
+		},
+		"Multimedia": {
+			"0": {
+				"KEY": "",
+				"LABEL": "ubuntu-restricted-extras",
+				"PKG": "ubuntu-restricted-extras",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+				},
+			"1": {
+				"KEY": "",
+				"LABEL": "libavcodec-extra",
+				"PKG": "libavcodec-extra",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"2": {
+				"KEY": "",
+				"LABEL": "shutter",
+				"PKG": "shutter",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"3": {
+				"KEY": "",
+				"LABEL": "openshot",
+				"PKG": "openshot",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"4": {
+				"KEY": "",
+				"LABEL": "Oracle 8",
+				"PKG": "oracle-java8-installer",
+				"PPA": "webupd8team/java",
+				"function": "installPKG",
+				"run": true
+			},
+			"5": {
+				"KEY": "",
+				"LABEL": "variety",
+				"PKG": "variety",
+				"PPA": "peterlevi/ppa",
+				"function": "installPKG",
+				"run": true
+			},
+			"6": {
+				"KEY": "",
+				"LABEL": "caffeine",
+				"PKG": "caffeine",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"7": {
+				"KEY": "",
+				"LABEL": "gimp",
+				"PKG": "gimp",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"8": {
+				"KEY": "",
+				"LABEL": "vlc",
+				"PKG": "vlc",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			}
+		},
+		"Security & Network":{
+			"0": {
+				"KEY": "",
+				"LABEL": "pushbullet-indicator",
+				"PKG": "pushbullet-indicator",
+				"PPA": "atareao/pushbullet",
+				"function": "installPKG",
+				"run": true
+			},
+			"1": {
+				"KEY": "",
+				"LABEL": "keepass2",
+				"PKG": "keepass2",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"2": {
+				"KEY": "",
+				"LABEL": "fail2ban",
+				"PKG": "fail2ban",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"3": {
+				"KEY": "",
+				"LABEL": "openvpn",
+				"PKG": "openvpn",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"4": {
+				"KEY": "",
+				"LABEL": "network-manager-openvpn",
+				"PKG": "network-manager-openvpn",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"5": {
+				"KEY": "",
+				"LABEL": "network-manager-openvpn-gnome",
+				"PKG": "network-manager-openvpn-gnome",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"6": {
+				"KEY": "",
+				"LABEL": "openssh-server",
+				"PKG": "openssh-server",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			}
+		},
+		"System":{
+			"0": {
+				"KEY": "",
+				"LABEL": "unity-tweak-tool",
+				"PKG": "unity-tweak-tool",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"1": {
+				"KEY": "",
+				"LABEL": "aptitude",
+				"PKG": "aptitude",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"2": {
+				"KEY": "",
+				"LABEL": "ppa-purge",
+				"PKG": "ppa-purge",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"3": {
+				"KEY": "",
+				"LABEL": "intel-microcode",
+				"PKG": "intel-microcode",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"4": {
+				"KEY": "",
+				"LABEL": "htop",
+				"PKG": "htop",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"5": {
+				"KEY": "",
+				"LABEL": "preload",
+				"PKG": "preload",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"6": {
+				"KEY": "",
+				"LABEL": "deborphan",
+				"PKG": "deborphan",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"7": {
+				"KEY": "",
+				"LABEL": "Indicator Multiload",
+				"PKG": "indicator-multiload",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"8": {
+				"KEY": "",
+				"LABEL": "GParted",
+				"PKG": "gparted",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			}
+		},
+		"Dev":{
+			"1": {
+				"KEY": "",
+				"LABEL": "Sublime Text 3",
+				"PKG": "sublime-text-installer",
+				"PPA": "webupd8team/sublime-text-3",
+				"function": "installPKG",
+				"run": true
+			},
+			"2": {
+				"KEY": "",
+				"LABEL": "vim",
+				"PKG": "vim",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"3": {
+				"KEY": "",
+				"LABEL": "vim-doc",
+				"PKG": "vim-doc",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"4": {
+				"KEY": "",
+				"LABEL": "vim-scripts",
+				"PKG": "vim-scripts",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			},
+			"5": {
+				"KEY": "",
+				"LABEL": "vim-gnome-py2",
+				"PKG": "vim-gnome-py2",
+				"PPA": "",
+				"function": "installPKG",
+				"run": true
+			}
+		}
+	},
+	"task": {
+		"0": {
+			"LABEL": "Disable swap",
+			"function": "disableSwap",
+			"run": true
+		},
+		"1": {
+			"LABEL": "Make virtual RAM and lync APT archives",
+			"function": "putAPTOnVirtualRAM",
+			"run": true
+		},
+		"2": {
+			"LABEL": "Upgrade system",
+			"function": "upgradeSystem",
+			"run": true
+		},
+		"3": {
+			"LABEL": "Install Packages",
+			"function": "installSelectedPackage",
+			"run": true
+		},
+		"4": {
+			"LABEL": "Fixe ttf-mscorefonts-installer (bug #1607535)",
+			"function": "fixMSFont",
+			"run": true
+		},
+		"5": {
+			"LABEL": "Setup Unity 7",
+			"function": "setUpUnity",
+			"run": true
+		}
+	}
+}
